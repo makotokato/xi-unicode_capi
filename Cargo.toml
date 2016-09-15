@@ -1,0 +1,9 @@
+[package]
+name = "xi-unicode_capi"
+version = "0.0.1"
+license = "MPL-2.0"
+authors = ["Mozilla Foundation"]
+publish = false
+
+[dependencies]
+"xi-unicode" = {version = "0.0.1", path = "../xi-unicode"}
